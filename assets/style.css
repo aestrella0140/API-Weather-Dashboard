@@ -1,26 +1,19 @@
 * {
-    box-sizing: border-box;
-}
-
-.box {
     
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 5px;
-    text-align: center;
+    box-sizing: border-box;
+    background-color: #4da6ff;
 }
 
+.column {
+    float: left;
+    width: 8%;
+    padding: 0 10px;
+}
 
-.box:after {
+.row {margin: 0 -3px;}
+
+.row::after {
     content: "";
     display: table;
-    clear: both;
+    
 }
-
-.card {
-    float: left;
-    margin-top: 75px;
-    margin-left: 450px;
-    width: 50%;
-    padding: 0 5px;
-}
-
