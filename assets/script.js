@@ -12,6 +12,9 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+newName.value+'&appi
         document.getElementById("day" + (i+1) +"Min").innerHTML ="Min: " + Number(data.list[i].main.temp_min ).toFixed(1) + "°";
     }
     for( i=0; i < 5; i++) {
+        document.getElementById("day" + (i+1) +"Temper").innerHTML ="Actual Temperature: " + Number(data.list[i].main.temp ).toFixed(1) + "°";
+    }
+    for( i=0; i < 5; i++) {
         document.getElementById("day" + (i+1) +"Max").innerHTML ="Max: " + Number(data.list[i].main.temp_max ).toFixed(1) + "°";
     }
     for( i=0; i < 5; i++) {
