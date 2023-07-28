@@ -10,7 +10,7 @@
     <div style="text-align: left">
       <h1 id="para1">5-Day Weather Forecast</h1>
     <p id="inputContainer">City: <input type="text" id="cityInput"></p>
-    <button>Search</button>
+    <button onclick="getInfo()">Search</button>
     <h2 id="cityName">--Phoenix--</h2>
     </div>
 
@@ -21,6 +21,8 @@
           <div class="image"><img src="images.png" class="imgclass" id="img1"></div>
           <p class="minVal" id="day1Min">loading</p>
           <p class="maxVal" id="day1Max">loading</p>
+          <p class="humid" id="day1Hum">loading</p>
+          <p class="wind" id="day1Win">loading</p>
         </div>
       </div>
 
@@ -29,6 +31,8 @@
         <div class="image"><img src="images.png" class="imgclass" id="img2"></div>
         <p class="minVal" id="day2Min">loading</p>
         <p class="maxVal" id="day2Max">loading</p>
+        <p class="humid" id="day2Hum">loading</p>
+        <p class="wind" id="day2Win">loading</p>
       </div>
     </div>
 
@@ -37,6 +41,8 @@
       <div class="image"><img src="images.png" class="imgclass" id="img3"></div>
       <p class="minVal" id="day3Min">loading</p>
       <p class="maxVal" id="day3Max">loading</p>
+      <p class="humid" id="day3Hum">loading</p>
+      <p class="wind" id="day3Win">loading</p>
     </div>
   </div>
 
@@ -45,6 +51,8 @@
     <div class="image"><img src="images.png" class="imgclass" id="img4"></div>
     <p class="minVal" id="day4Min">loading</p>
     <p class="maxVal" id="day4Max">loading</p>
+    <p class="humid" id="day4Hum">loading</p>
+    <p class="wind" id="day4Win">loading</p>
   </div>
 </div>
 
@@ -53,8 +61,11 @@
   <div class="image"><img src="images.png" class="imgclass" id="img5"></div>
   <p class="minVal" id="day5Min">loading</p>
   <p class="maxVal" id="day5Max">loading</p>
+  <p class="humid" id="day5Hum">loading</p>
+  <p class="wind" id="day5Win">loading</p>
 </div>
 </div>
     </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
